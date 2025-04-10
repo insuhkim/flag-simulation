@@ -44,10 +44,10 @@ void setup() {
   imgButton = new Button(width-100, 100, 100, 100).setText("img");
   lineButton = new Button(width-100, 220, 100, 100).setText("line");
 
-  img = loadImage("taegukgi.png");
+  img = loadImage("img/taegukgi.png");
   flag.setImage(img);
 
-  sky = loadImage("school.jpg");
+  sky = loadImage("img/school.jpg");
   sky.resize(5000, 2500);
 }
 
